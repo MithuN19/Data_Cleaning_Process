@@ -1,0 +1,33 @@
+Column,DataType,Description
+hotel,object,Type of hotel (City or Resort)
+is_canceled,int64,Booking cancellation flag
+lead_time,int64,Number of days before arrival the booking was made
+arrival_date_year,int64,Year of arrival
+arrival_date_month,object,Month of arrival
+arrival_date_week_number,int64,Day of month of arrival
+arrival_date_day_of_month,int64,Number of weekend nights
+stays_in_weekend_nights,int64,Number of week nights
+stays_in_week_nights,int64,Number of adults
+adults,int64,Number of children
+children,float64,Number of babies
+babies,int64,Meal plan type
+meal,object,Country of origin
+country,object,Booking channel
+market_segment,object,Customer type
+distribution_channel,object,Average Daily Rate
+is_repeated_guest,int64,Date reservation was made final
+previous_cancellations,int64,Constructed arrival date
+previous_bookings_not_canceled,int64,Total number of guests
+reserved_room_type,object,
+assigned_room_type,object,
+booking_changes,int64,
+deposit_type,object,
+agent,float64,
+company,float64,
+days_in_waiting_list,int64,
+customer_type,object,
+adr,float64,
+required_car_parking_spaces,int64,
+total_of_special_requests,int64,
+reservation_status,object,
+reservation_status_date,object,
